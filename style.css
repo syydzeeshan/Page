@@ -1,0 +1,76 @@
+body {
+  font-family: "Archivo", sans-serif !important;
+}
+.category-card {
+  position: absolute;
+  bottom: 5%;
+  left: 30px;
+}
+li {
+  list-style-type: none;
+}
+.font-color-grey {
+  color: #6c757d;
+}
+.font-color-brand {
+  color: #d89654;
+}
+.background-primary {
+  background-color: #093b32;
+}
+.background-secondary {
+  background-color: #d89654;
+}
+/* .topnav {
+  overflow: hidden;  
+  display: flex;
+  justify-content: space-between;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+} */
+
+.topnav::-webkit-scrollbar {
+  display: none;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 12px;
+}
+.font-14-px {
+  font-size: 14px;
+}
+.font-16-px {
+  font-size: 16px;
+}
+.font-24-px {
+  font-size: 24px;
+}
+.font-10-px {
+  font-size: 10px;
+}
+
+.card-title {
+  max-height: 16px;
+}
+
+/* do not group these rules */
+
+.form-control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.sticky-div {
+  z-index: 1;
+  position: sticky;
+  top: 0px;
+}
+
+.relative-position {
+  position: relative;
+}
